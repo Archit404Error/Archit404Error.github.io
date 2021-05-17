@@ -4,14 +4,23 @@
 .sectionHeader{
   font-size: 10vh;
 }
-a {
+.styledLink {
   text-decoration-color: #c90000;
   text-decoration-thickness: 5px;
   color: black;
 }
 
-a:hover{
+.styledLink:hover{
   text-decoration: none;
   background-color: #c90000;
   color: white;
+}
+
+.main-navigation {
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .5);
+  position: fixed;
+  background-color: #c90000;
+  border-radius: 0px;
+  width: 100vw;
+  z-index: 999;
 }
