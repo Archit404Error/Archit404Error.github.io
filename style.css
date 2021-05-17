@@ -1,7 +1,7 @@
-.highlight{
+.highlight {
   color: #c90000;
 }
-.sectionHeader{
+.sectionHeader {
   font-size: 10vh;
 }
 .styledLink {
@@ -10,7 +10,7 @@
   color: black;
 }
 
-.styledLink:hover{
+.styledLink:hover {
   text-decoration: none;
   background-color: #c90000;
   color: white;
