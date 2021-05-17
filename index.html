@@ -3,27 +3,22 @@
     <!-- Load BootStrap 5.0 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Load Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
 
     <!-- Load animation code -->
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="wow.min.js"></script>
     <script>new WOW().init();</script>
 
     <!-- Load Personal Stylesheets -->
     <link type = "text/css" rel = "stylesheet" href = "style.css">
 
-    <!-- Custom CSS-->
-    <style>
-      h1{
-        font-family: 'IBM Plex Sans', sans-serif;
-        color: black;
-      }
-    </style>
+    <!-- Load FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <!-- Navbar -->
@@ -39,36 +34,44 @@
         </ul>
         <ul class = "navbar-nav ms-auto">
           <li class="nav-item">
-            <a style = "color: white;" class="nav-link" href="index.php">Home</a>
+            <a style = "color: white;" class="nav-link" href="#intro">Home</a>
           </li>
           <li class="nav-item">
-            <a style = "color: white;" class="nav-link" href="itemsearch.php">About</a>
+            <a style = "color: white;" class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
             <a style = "color: white;" class="nav-link" href="itemsearch.php">Work Experience</a>
           </li>
           <li class="nav-item">
-            <a style = "color: white;" class="nav-link" href="itemsearch.php">Projects</a>
+            <a style = "color: white;" class="nav-link" href="itemsearch.php">Awards</a>
           </li>
           <li class="nav-item">
-            <a style = "color: white;" class="nav-link" href="itemsearch.php">Awards</a>
+            <a style = "color: white;" class="nav-link" href="itemsearch.php">Resume</a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <div style = "height: 10vh;"></div>
+    <div style = "height: 20vh;"></div>
 
     <!-- Picture & Intro Section -->
-    <div class = "row text-center animate__animated animate__fadeInUp wow">
-      <h1 class = "sectionHeader">About Me</h1>
-    </div>
-    <div class = "row container animate__animated animate__fadeInUp wow" data-wow-delay = "500ms">
-      <div class = "d-none d-md-block col-md-3">
+    <div id = "intro" class = "row container">
+      <div class = "d-none d-md-block col-md-2" style = "position: fixed;">
         <img class = "img-fluid" src = "archit_headshot_square.jpg" style = "border-radius: 50%">
+        <div class = "row justify-content-center">
+          <a class = "col-md-3" target="_blank" href = "https://www.instagram.com/archit_mehta/?hl=en"><i class = "fa fa-instagram socialIcon fa-2x"></i></a>
+          <a class = "col-md-3" target="_blank" href = "https://www.linkedin.com/in/archit-mehta-215437183/"><i class = "fa fa-linkedin socialIcon fa-2x"></i></a>
+          <a class = "col-md-3" target="_blank" href = "https://www.github.com/Archit404Error"><i class = "fa fa-github socialIcon fa-2x"></i></a>
+        </div>
+        <div style = "height: 2vh;"></div>
+        <div class = "row text-center">
+          <h3 class = "tiny">4architmehta@gmail.com</h3>
+          <h3 class = "tiny">(609) 277 5900</h3>
+        </div>
       </div>
-      <div class = "col-md-8">
-        <h1>Hi, I'm <span class = "highlight">Archit</span>.</h1>
+      <div class = "col-md-8 offset-md-3">
+        <h1 style = "margin-top: 10%;" class = "animate__animated animate__bounceInRight wow">Hi, I'm <span class = "highlight">Archit</span>.</h1>
+        <div style = "height: 2vh;"></div>
         <h3>I'm an <span class = "highlight">avid programmer</span> and <span class = "highlight">aspiring entrepreneur</span>,
           currently studying Computer Science at <a class = "styledLink" target = "_blank" href = "http://cornell.edu">Cornell University.</a></h3>
         <div style = "height: 2vh;"></div>
@@ -79,6 +82,22 @@
         <div style = "height: 2vh;"></div>
         <h3>I've also grown my <span class = "highlight">leadership</span> and <span class = "highlight">programming knowledge</span> via <a class = "styledLink" href = "#projects">work experinces.</a>
           Most recently, I intered at <a class = "styledLink" href = "http://atyeti.com">Atyeti, Inc</a>, creating a new automated and centralized HR system.</h3>
+          <div style = "height: 2vh;"></div>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id = "projects" class = "row container">
+      <div class = "col-md-8 offset-md-3">
+        <h3 class = "tiny animate__animated animate__fadeInUp wow">Engineering the Future.</h3>
+        <h1 class = "animate__animated animate__fadeInDown wow">Projects I've Built</h1>
+      </div>
+      <div style = "height: 2vh"></div>
+      <div class = "col-md-8 offset-md-3">
+        <h3>[Coming Soon!]</h3>
+        <h3>[Coming Soon!]</h3>
+        <h3>[Coming Soon!]</h3>
+        <h3>[Coming Soon!]</h3>
       </div>
     </div>
   </body>

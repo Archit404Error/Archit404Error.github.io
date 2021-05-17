@@ -10,6 +10,16 @@
   color: black;
 }
 
+.socialIcon {
+  color: #c90000;
+}
+
+.tiny {
+  color: #c90000;
+  font-size: 2vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .styledLink:hover {
   text-decoration: none;
   background-color: #c90000;
@@ -23,4 +33,9 @@
   border-radius: 0px;
   width: 100vw;
   z-index: 999;
+}
+
+h1 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: black;
 }
