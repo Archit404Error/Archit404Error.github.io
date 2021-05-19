@@ -17,6 +17,10 @@
     <!-- Load Personal Stylesheets -->
     <link type = "text/css" rel = "stylesheet" href = "style.css">
 
+    <!-- Load Rellax Scrolling Library -->
+    <script src = "rellax.min.js"></script>
+    <script>var rellax = new Rellax('.rellax');</script>
+
     <!-- Load FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
@@ -86,6 +90,8 @@
       </div>
     </div>
 
+    <div style = "height: 5vh"></div>
+
     <!-- Projects Section -->
     <div id = "projects" class = "row container">
       <div class = "col-md-8 offset-md-3">
@@ -94,11 +100,100 @@
       </div>
       <div style = "height: 2vh"></div>
       <div class = "col-md-8 offset-md-3">
-        <h3>[Coming Soon!]</h3>
-        <h3>[Coming Soon!]</h3>
-        <h3>[Coming Soon!]</h3>
-        <h3>[Coming Soon!]</h3>
+        <div class = "row">
+          <div class="card col-md-4">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">[coming soon]</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card col-md-4">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">[coming soon]</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card col-md-4">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">[coming soon]</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+
+    <div style = "height: 5vh"></div>
+
+    <!-- Skills Section -->
+    <div id = "projects" class = "row container">
+      <div class = "col-md-8 offset-md-3">
+        <h3 class = "tiny animate__animated animate__fadeInUp wow">An Abundance of Experience.</h3>
+        <h1 class = "animate__animated animate__fadeInDown wow">Tech Experience & Skills</h1>
+      </div>
+      <div style = "height: 2vh"></div>
+      <div class = "col-md-8 offset-md-3 row">
+        <ul class="list-group col-md-3">
+          <li class="list-group-item" style = "background-color: #c90000; color: white;">Front-end</li>
+          <li class="list-group-item">Bootstrap</li>
+          <li class="list-group-item">React.js</li>
+          <li class="list-group-item">Apollo</li>
+          <li class="list-group-item">Vue.js</li>
+        </ul>
+        <ul class="list-group col-md-3">
+          <li class="list-group-item" style = "background-color: #c90000; color: white;">Back-end</li>
+          <li class="list-group-item">Java</li>
+          <li class="list-group-item">PHP</li>
+          <li class="list-group-item">Flask</li>
+          <li class="list-group-item">Node.js</li>
+        </ul>
+        <ul class="list-group col-md-3">
+          <li class="list-group-item" style = "background-color: #c90000; color: white;">DBs & Query</li>
+          <li class="list-group-item">SQL & PostGreSQL</li>
+          <li class="list-group-item">MongoDB</li>
+          <li class="list-group-item">GraphQL</li>
+          <li class="list-group-item">Neo4j</li>
+        </ul>
+        <ul class="list-group col-md-3">
+          <li class="list-group-item" style = "background-color: #c90000; color: white;">Languages</li>
+          <li class="list-group-item">Java</li>
+          <li class="list-group-item">Python</li>
+          <li class="list-group-item">JavaScript</li>
+          <li class="list-group-item">PHP</li>
+        </ul>
+      </div>
+
+      <div style = "height: 2vh"></div>
+
+      <div class = "col-md-8 offset-md-3 row">
+        <ul class="list-group col-md-3">
+          <li class="list-group-item" style = "background-color: #c90000; color: white;">Mobile</li>
+          <li class="list-group-item">Firebase</li>
+          <li class="list-group-item">Flutter</li>
+          <li class="list-group-item">React Native</li>
+          <li class="list-group-item">Android Studio</li>
+        </ul>
+        <ul class="list-group col-md-3">
+          <li class="list-group-item" style = "background-color: #c90000; color: white;">Other</li>
+          <li class="list-group-item">Microservices</li>
+          <li class="list-group-item">Docker</li>
+          <li class="list-group-item">Cloud(AWS & Azure)</li>
+          <li class="list-group-item">Bash & Linux</li>
+        </ul>
+      </div>
+    </div>
+
+    <div style = "height: 5vh"></div>
+
+    <!-- Footer -->
+    <footer class = "col-md-12 text-center justify-content-center" style = "color: white; background-color: #c90000; height: 15vh">
+      <div style = "height: 2vh"></div>
+      <h3 class = "tiny" style = "color: white;">Site built by Archit Mehta</h3>
+      <div style = "height: 2vh"></div>
+      <a href = "#intro" class = "tiny" style = "color: white;">^ Back to top</a>
+    </footer>
   </body>
 </html>
