@@ -35,6 +35,14 @@
   z-index: 999;
 }
 
+.circleDiv {
+  border-radius: 50%;
+  width: 2vw;
+  height: 2vw;
+  background-color: white;
+  border: 2px solid #c90000;
+}
+
 h1 {
   font-family: 'IBM Plex Sans', sans-serif;
   color: black;
