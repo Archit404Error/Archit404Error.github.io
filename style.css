@@ -10,6 +10,24 @@
   color: black;
 }
 
+.styledLink:hover {
+  text-decoration: none;
+  background-color: #c90000;
+  color: white;
+}
+
+.tinyStyledLink {
+  text-decoration-color: #c90000;
+  text-decoration-thickness: 2px;
+  color: #c90000;
+}
+
+.tinyStyledLink:hover {
+  text-decoration: none;
+  background-color: #c90000;
+  color: white;
+}
+
 .socialIcon {
   color: #c90000;
 }
@@ -18,12 +36,6 @@
   color: #c90000;
   font-size: 2vh;
   font-family: 'Montserrat', sans-serif;
-}
-
-.styledLink:hover {
-  text-decoration: none;
-  background-color: #c90000;
-  color: white;
 }
 
 .main-navigation {
@@ -36,11 +48,9 @@
 }
 
 .circleDiv {
-  border-radius: 50%;
   width: 2vw;
   height: 2vw;
   background-color: white;
-  border: 2px solid #c90000;
 }
 
 h1 {
