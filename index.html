@@ -23,9 +23,11 @@
     <!-- Load Personal Stylesheets -->
     <link type = "text/css" rel = "stylesheet" href = "style.css">
 
-    <!-- Load Rellax Scrolling Library -->
-    <script src = "rellax.min.js"></script>
-    <script>var rellax = new Rellax('.rellax');</script>
+    <!-- Load Rellax Scrolling Library
+    <script async onload = "beginRellax" src = "rellax.min.js"></script>
+
+
+    <script src = "index.js"></script> -->
 
     <!-- Load FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -53,17 +55,13 @@
             <a style = "color: white;" class="nav-link" href="#workExperience">Work Experience</a>
           </li>
           <li class="nav-item">
-            <a style = "color: white;" class="nav-link" href="#">Awards</a>
-          </li>
-          <li class="nav-item">
-            <a style = "color: white;" class="nav-link" href="#">Resume</a>
+            <a style = "color: white;" class="nav-link" href="archit_mehta_resume.pdf">Resume</a>
           </li>
         </ul>
       </div>
     </nav>
 
     <div style = "height: 20vh;"></div>
-
     <!-- Picture & Intro Section -->
     <div id = "intro" class = "row container">
       <div class = "d-none d-md-block col-md-2" style = "position: fixed;">
@@ -346,4 +344,9 @@
       <a href = "#intro" class = "tiny" style = "color: white;">^ Back to top</a>
     </footer>
   </body>
+  <!-- Load Rellax.js -->
+  <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+  <script>
+    var rellax = new Rellax('.rellax');
+  </script>
 </html>
