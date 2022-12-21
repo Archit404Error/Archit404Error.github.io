@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 import Project, { ProjRepr } from './project';
 import Skills from './skills';
 import Typewriter from 'typewriter-effect';
+import WorkExperience from './workExperience';
 
 const App = () => {
   useEffect(() => {
@@ -235,142 +236,14 @@ const App = () => {
 
       <div style={{ height: "5vh" }}></div>
 
-      {/*
-        <div id="workExperience" className="row container">
-          <div className="col-md-8 offset-md-3 col-xl-8 col-xs-12">
-            <h3 className="tiny fadeInUp wow">Putting my skills to the test.</h3>
-            <h1 className="fadeInDown wow">Work Experience</h1>
-          </div>
-          <div style={{ height: "2vh" }}></div>
-          <div className="col-md-8 offset-md-3 col-xl-8 col-xs-12">
-            <div className="row wow fadeInRight">
-              <img alt="Archit Mehta Atyeti Software Development Intern" className="img-fluid col-md-3"
-                src="images/atyeti_pic.png" style="max-height: 25vh;" />
-              <div className="col-md-9">
-                <h3>Software Development Intern</h3>
-                <h3 className="tiny"><a className="tinyStyledLink" target="_blank" href="https://atyeti.com">Atyeti Inc</a> (Jul
-                  2020 - Oct 2020)</h3>
-                <h3 className="tiny" style="color: black;">At Atyeti, I implemented a centralized platform that helped the
-                  company to greatly increase efficiency when it came to hiring and onboarding candidates.
-                  The system enabled them to manage employee recruiting, send out acceptance/rejection emails, and ensure
-                  that only HR staff had access to sensitive data. My platform helped the company save
-                  hundreds of labor hours, and I worked directly with the company's CTO, who commended me for my work. Over
-                  the duration of this internship, I learned about Microservices, Modern API Development
-                  (with GraphQL and Apollo), and React.js.</h3>
-              </div>
-            </div>
-          </div>
-          <div style={{ height: "2vh" }}></div>
-          <div className="col-md-8 offset-md-3 col-xl-8 col-xs-12">
-            <div className="row wow fadeInRight" data-wow-delay="100ms">
-              <img alt="Archit Mehta Plainsboro Public Library Foundation Intern." className="img-fluid col-md-3"
-                src="images/pplf_pic.png" style="max-height: 25vh;" />
-              <div className="col-md-9">
-                <h3>Web Development Intern</h3>
-                <h3 className="tiny"><a className="tinyStyledLink" target="_blank"
-                  href="https://plainsborolibrary.org/plainsboro-library-foundation-2/">Plainsboro Public Library
-                  Foundation</a> (Jun 2019 - Sep 2019)</h3>
-                <h3 className="tiny" style="color: black;">The Plainsboro Public Library is responsible for managing the
-                  educational opportunities of over 50,000 Township residents, and primarily makes money via fundraisers.
-                  As a web development intern at the foundation, I simplified their entire fundraising process, creating a
-                  platform that they could use to automatically generate sites capable of advertising events,
-                  receiving donations, etc. My platform served over 23,000 residents over the duration of my internship
-                  alone, and my code was acquired for further use.</h3>
-              </div>
-            </div>
-          </div>
-          <div style={{ height: "2vh" }}></div>
-          <div className="col-md-8 offset-md-3 col-xl-8 col-xs-12">
-            <div className="row wow fadeInRight" data-wow-delay="200ms">
-              <img alt="Archit Mehta, Software Developer, Junior State of America." className="img-fluid col-md-3"
-                src="images/jsa_pic.png" style="max-height: 25vh;" />
-              <div className="col-md-9">
-                <h3>Software Developer & Elected Official</h3>
-                <h3 className="tiny"><a className="tinyStyledLink" target="_blank" href="https://jsa.org">Mid-Atlantic State Junior
-                  State of America</a> (Apr 2020 - Apr 2021)</h3>
-                <h3 className="tiny" style="color: black;">I was elected to lead over 1500 fellow highschoolers throughout the
-                  Mid-Atlantic State(NJ, PA, NC, MD, VA, DE). My role was to perfect the Mid-Atlantic State by utilizing
-                  technology and legislation to solve its issues. In my position, I not only created the aforementioned
-                  State Assembly site, but also came up with reforms
-                  (such as hosting meetings online) that brought legislation and engagement to their highest points in 30
-                  years.</h3>
-              </div>
-            </div>
-          </div>
-          <div style={{ height: "2vh" }}></div>
-          <div className="col-md-8 offset-md-3 col-xl-8 col-xs-12">
-            <div className="row wow fadeInRight" data-wow-delay="300ms">
-              <img alt="Archit Mehta, Junior Coding League founder." className="img-fluid col-md-3" src="images/jcl_pic.png"
-                style="max-height: 25vh;" />
-              <div className="col-md-9">
-                <h3>Founder & CEO</h3>
-                <h3 className="tiny"><a className="tinyStyledLink" target="_blank" href="https://juniorcodingleague.org">Junior
-                  Coding League</a> (Jul 2019 - Apr 2021)</h3>
-                <h3 className="tiny" style="color: black;">In an attempt to teach students programming in a new and unique
-                  manner, I founded Junior Coding League. The organization is built around the idea that students should
-                  learn to code based off of projects they build, not just by memorizing syntax. In our classNamees, students
-                  learn how to code by building games they've played their whole life (Flappy Bird, Cookie Clicker, etc.),
-                  ensuring they have fun as they code and test their projects. Our idea proved wildly successful, and we
-                  currently are a registered nonprofit, have 500+ students, and are expanding into India, Afghanistan, and
-                  Nigeria!</h3>
-              </div>
-            </div>
-          </div>
-          <div style={{ height: "2vh" }}></div>
-          <div className="col-md-8 offset-md-3 col-xl-8 col-xs-12">
-            <div className="row wow fadeInRight" data-wow-delay="400ms">
-              <img alt="Archit Mehta, TSA President." className="img-fluid col-md-3" src="images/tsa_pic.png"
-                style="max-height: 25vh;" />
-              <div className="col-md-9">
-                <h3>WW-P North Chapter President</h3>
-                <h3 className="tiny"><a className="tinyStyledLink" target="_blank" href="https://tsaweb.org">Technology Student
-                  Assocation</a> (2019 - 2021)</h3>
-                <h3 className="tiny" style="color: black;">I've always gravitated to technology, and that's why I joined and
-                  rose through the ranks of the WWP Technology Student Association chapter.
-                  As President, I not only brought the club's membership to its highest point ever, but I also implemented a
-                  website which students could use in order to grow their technological skills.
-                  The website was inspired by the CTFs I competed in, and enabled students to submit answers to weekly
-                  challenges, ensuring they would learn something new each week, even if they couldn't attend the club
-                  meeting.</h3>
-              </div>
-            </div>
-          </div>
-          <div style={{ height: "2vh" }}></div>
-          <div className="col-md-8 offset-md-3 col-xl-8 col-xs-12">
-            <div className="row wow fadeInRight" data-wow-delay="500ms">
-              <img alt="Archit Mehta, USACO gold divisionist." className="img-fluid col-md-3" src="images/usaco_pic.png"
-                style="max-height: 25vh;" />
-              <div className="col-md-9">
-                <h3>Gold Divisionist</h3>
-                <h3 className="tiny"><a className="tinyStyledLink" target="_blank" href="https://usaco.org">USA Computing
-                  Olympiad</a></h3>
-                <h3 className="tiny" style="color: black;">The USA Computing Olympiad tests the programming abilities of
-                  hundreds of thousands of students nationwide, and as a competitor I was able to grow my knowledge of
-                  algorithms
-                  and data structures. I rose all the way to the Gold rank, one of only 612 students nationwide to achieve
-                  this prestigious rank.</h3>
-              </div>
-            </div>
-          </div>
-          <div style={{ height: "2vh" }}></div>
-          <div className="col-md-8 offset-md-3 col-xl-8 col-xs-12">
-            <div className="row wow fadeInRight" data-wow-delay="600ms">
-              <img alt="Archit Mehta, CTF Competitor and victor." className="img-fluid col-md-3" src="images/ctf_pic.png"
-                style="max-height: 25vh;" />
-              <div className="col-md-9">
-                <h3>CyberSecurity CTF Competitor</h3>
-                <h3 className="tiny" style="color: black;">In addition to Hackathons, I also compete in CyberSecurity CTF
-                  competitions. I've learned a lot about vulnerabilities in websites (such as SQL Injections, XSS attacks,
-                  and SSTI) as well as
-                  binary exploitation (buffer overflow), cryptography (RSA encryption, hash collision, etc), and forensics
-                  (file recovery, password cracking, etc). I've placed 5th in PeaCTF(out of 1600), 8th in AngstromCTF(out of
-                  1500), and 37th
-                  in PicoCTF (out of 10000)</h3>
-              </div>
-            </div>
-          </div>
+      <div id="workExperience" className="row container">
+        <div className="col-md-8 offset-md-3 col-xl-8 col-xs-12">
+          <h3 className="tiny fadeInUp wow">Putting my skills to the test.</h3>
+          <h1 className="fadeInDown wow">Work Experience</h1>
         </div>
-                  */}
+        <div style={{ height: "2vh" }}></div>
+        <WorkExperience />
+      </div>
 
       <div style={{ height: "10vh" }}></div>
 
