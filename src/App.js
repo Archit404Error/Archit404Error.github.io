@@ -32,7 +32,7 @@ const App = () => {
     new ProjRepr(
       "NewsFlash, a website and app designed to help identify and remove news bias, created by Archit Mehta",
       `${process.env.PUBLIC_URL}/images/news_flash_pic.png`,
-      "https://web-production-3b7b.up.railway.app",
+      "http://34.150.144.93:5000",
       "NewsFlash: Unbiased News",
       "NewsFlash is a website and mobile app that helps identify and remove news bias. It is capable of displaying top headlines(and their bias), multiple articles across the web on a given topic, or analyzing a specific article by url. Through these features, the app is essentially able to provide users with unbiased coverage on every issue imaginable.",
       "1,000+ Users; 50,000+ Articles Analyzed"
