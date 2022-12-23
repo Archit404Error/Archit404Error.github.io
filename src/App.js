@@ -66,7 +66,7 @@ const App = () => {
       `${process.env.PUBLIC_URL}/images/reinforced_pic.png`,
       "https://github.com/Archit404Error/Artificial-Intelligence-Projects",
       "AI Simulations",
-      "In an effort to grow my machine learning knowledge, I built several reinforcement learning projects where the player plays (and eventually beats) a popular game. I've created simulations for flappy bird, brick breaker(pictured right), asteroids, car racing, and more!"
+      "I built several reinforcement learning projects where the player plays (and eventually beats) a popular game. I've created simulations for flappy bird, brick breaker(pictured right), asteroids, car racing, and more!"
     )
   ]
 
