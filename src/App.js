@@ -97,7 +97,7 @@ const App = () => {
 
       <div style={{ height: "20vh" }}></div>
 
-      <div id="intro" className="row h-75" style={{ minHeight: "65vh" }}>
+      <div id="intro" className="row h-75" style={{ minHeight: "70vh" }}>
         <div
           className="col-md-3 offset-md-1 col-sm-12 col-xs-12 justify-content-center text-center fadeInUpBig wow">
           <img alt="Archit Mehta, programmer, entrepreneur, and student." className="img-fluid" src={`${process.env.PUBLIC_URL}/images/archit_pic.png`}
