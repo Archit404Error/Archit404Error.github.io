@@ -238,10 +238,9 @@ const App = () => {
 
       <div id="workExperience" className="row container">
         <div className="col-md-8 offset-md-3 col-xl-8 col-xs-12">
-          <h3 className="tiny fadeInUp wow">Putting my skills to the test.</h3>
+          <h3 className="subheader fadeInUp wow">Putting my skills to the test.</h3>
           <h1 className="fadeInDown wow">Work Experience</h1>
         </div>
-        <div style={{ height: "2vh" }}></div>
         <WorkExperience />
       </div>
 
