@@ -180,7 +180,7 @@ const App = () => {
             medical devices.</h3>
         </div>
       </div>
-      <svg style={{ display: "block" }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 321">
+      <svg style={{ display: "block", marginTop: -1 }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 321">
         <path fill="#ff3636" fillOpacity={1}
           d="M0,128L48,149.3C96,171,192,213,288,224C384,235,480,213,576,186.7C672,160,768,128,864,101.3C960,75,1056,53,1152,58.7C1248,64,1344,96,1392,112L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
         </path>
