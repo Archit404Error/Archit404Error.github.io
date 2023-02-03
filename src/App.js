@@ -22,6 +22,13 @@ const App = () => {
 
   const projects = [
     new ProjRepr(
+      "Cornell Courses utilizes Machine Learning and Natural Language Processing to aid students in discovering interesting courses based on natural language queries.",
+      `${process.env.PUBLIC_URL}/images/semantic_search.png`,
+      "https://cornellcourses.org",
+      "Cornell Courses",
+      "Cornell Courses is a website that utilizes Machine Learning and Natural Language Processing to aid students in discovering interesting courses based on natural language queries. Made with React, Flask, and Gensim, hosted on Google Cloud.",
+    ),
+    new ProjRepr(
       "Yolo, an app designed to help college students find events around campus and attend them with friends, created by Archit Mehta",
       `${process.env.PUBLIC_URL}/images/yolo_proj.png`,
       "https://yolonow.net",
