@@ -176,15 +176,13 @@ const App = () => {
           <div style={{ height: "2vh" }}></div>
           <h3 className="fadeIn wow" data-wow-delay="900ms">To that end, I've built several
             projects designed to solve the problems I see in the world around me.
-            The name of my most recent project is <span className="highlight">NewsFlash</span>, designed to provide users with
-            all sides of an issue in under 5 minutes. It does so by displaying the summaries, sentiment, and bias of
-            articles relevant to a particular issue.</h3>
+            The name of my most recent project is <span className="highlight">Cornell Semantic Search</span>, designed to help Cornell students
+            find interesting courses by acting as a semantic search engine for Cornell courses based on course descriptions.</h3>
           <div style={{ height: "2vh" }}></div>
           <h3 className="fadeIn wow" data-wow-delay="1000ms">I've also grown my <span
             className="highlight">leadership</span> and <span className="highlight">programming knowledge</span> via work
-            experinces.
-            Most recently, I interned at Johnson & Johnson Robotics, working on an ai-powered cloud iot platform for
-            medical devices.</h3>
+            experiences.
+            Most recently, I interned at Apple, creating a C++ library to detect topoligical and geometric changes in HD Maps for autonomous systems.</h3>
         </div>
       </div>
       <svg style={{ display: "block", marginTop: -1 }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 321">
