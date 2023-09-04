@@ -31,7 +31,7 @@ const App = () => {
     new ProjRepr(
       "Yolo, an app designed to help college students find events around campus and attend them with friends, created by Archit Mehta",
       `${process.env.PUBLIC_URL}/images/yolo_proj.png`,
-      "https://yolonow.net",
+      "https://github.com/Archit404Error/YoloMobile",
       "Yolo: Social Events",
       "Yolo is the first social media app built around your calendar. It's designed to help you find fun events on campus and make friends with similar interests, and it's launching at Cornell University in Fall 2022!",
       "300+ Daily Active Users, 1000+ Users"
