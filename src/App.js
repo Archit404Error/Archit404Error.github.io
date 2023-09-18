@@ -17,7 +17,7 @@ const App = () => {
     "Projects": "#projects",
     "Work Experience": "#workExperience",
     "Contact Me": "#contact",
-    "Resume": `${process.env.PUBLIC_URL}/archit_resume.pdf`
+    "Resume": `${process.env.PUBLIC_URL}/Archit_Mehta_Resume.pdf`
   }
 
   const projects = [
